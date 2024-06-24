@@ -1,0 +1,130 @@
+
+.login{
+  .box{
+    margin: 100px;
+    margin-left: 600px;
+    height: 400px;
+    width: 300px;
+    background-color: #efefef;
+    border:1px solid gray;
+
+    box-shadow: 1px 2px 8px ;
+    .form-container{
+      margin:0px;
+      margin-left: -50px;
+      // margin-left: 20px;
+      h1{
+         margin-left: 140px;
+         margin-top: 10px;
+      }
+      
+      .email{
+        margin-top: 20px;
+        margin-left: 100px;
+        input{
+          margin-left: -10px;
+          width: 220px;
+          padding: 3px;
+          padding-left: 5px;
+          padding-top: 0px;
+
+        }
+        p{
+          margin-left: 50px;
+        margin-bottom: 10px;
+        font-weight: 500;
+   
+        }
+
+      }
+      .password{
+        margin-top: 20px;
+        margin-left: 100px;
+        input{
+          margin-left: -10px;
+          width: 220px;
+          padding: 3px;
+          padding-left: 5px;
+          padding-top: 0px;
+
+        }
+        p{
+          margin-left: 60px;
+        margin-bottom: 10px;
+        font-weight: 500;
+  
+        }
+      }
+      button{
+        width: 200px;
+        margin-top:20px;
+        margin-left: 100px;
+      }
+     
+    }
+  
+    .signup {
+  transition: opacity 0.3s ease;
+
+  p{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    color: red;
+      margin-left: 105px;
+      margin-top: 10px;
+  }
+   .link {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+        margin-left: 90px;
+  }
+
+  &.hide-content {
+    p{
+      opacity: 0;
+      pointer-events: none;
+    } 
+    .link {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
+
+.reset-new-email{
+  transition: opacity 0.3s ease;
+p{
+  opacity: 1;
+    transition: opacity 0.3s ease;
+    color: red;
+      margin-left: 155px;
+      margin-top: 10px;
+}
+.link{
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+      margin-left: 130px;
+}
+}
+.reset-password{
+  transition: opacity 0.3s ease;
+p{
+  opacity: 1;
+    transition: opacity 0.3s ease;
+    color: red;
+      margin-left: 130px;
+      margin-top: 10px;
+}
+.link{
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+      margin-left: 135px;
+}
+}
+   
+  }
+ 
+}
