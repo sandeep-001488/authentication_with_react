@@ -1,5 +1,8 @@
 const mongoose=require("mongoose")
-mongoose.connect("mongodb://127.0.0.1:27017/authentication",{
+require("dotenv").config()
+
+const DB=`${process.env.URL}`
+mongoose.connect(DB,{
   serverSelectionTimeoutMS:5000
 })
 mongoose.connection.on("connected",()=>{
