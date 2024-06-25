@@ -39,7 +39,7 @@ const ResetPassword = () => {
     setPasswordLengthError(false);
 
     try {
-      const response = await fetch("http://localhost:5000/user/reset-password", {
+      const response = await fetch("https://authentication-with-react-2.onrender.com/user/reset-password", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
