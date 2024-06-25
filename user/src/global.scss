@@ -1,0 +1,10 @@
+$mainColor: #15023a;
+$minWidth: 320px;
+$minHeight: 480px;
+$breakpoint: 768px; // for tablets and larger devices
+
+@mixin mobile {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
